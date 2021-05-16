@@ -76,9 +76,9 @@ int main() {
     int heartbeat = 0;
     short dir=0;            // (1 or 0) clockwise/counter-clockwise path along color-wheel
     short inv=0;            // (1 or 0) clockwise/counter-clockwise path, inverts color orientation
-    float cycle=4;          // cycle --> scales cycle time
+    float cycle=3;          // cycle --> scales cycle time
     float b=.05;             // brightness 
-    float gradient=0.5;       // gradient --> scales how close respective LED hues are together
+    float gradient=1;       // gradient --> scales how close respective LED hues are together
     short cap=360*cycle;    // sets the max counter for ticking thru hues
     
     if (inv==1) {
